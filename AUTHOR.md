@@ -73,8 +73,6 @@ This project is open-source and available for:
 The codebase follows professional software development standards and is suitable for production deployment with appropriate testing and validation for specific use cases.
 
 ---
-
-**Repository:** [GitHub Repository Link]  
 **License:** MIT License  
 **Language:** C++17/20  
 **Domain:** Quantitative Finance & High-Performance Computing
