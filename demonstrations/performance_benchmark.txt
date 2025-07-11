@@ -1,0 +1,71 @@
+=========================================
+Low-Latency Options Pricing Engine Demo
+=========================================
+Author: Rishabh Patil
+C++ High-Performance Quantitative Finance
+=========================================
+
+=== European Options Pricing Demo ===
+Market Data: S=$105.000000, K=$100.000000, T=0.250000 years, r=5.000000%, σ=20.000000%, q=2.000000%
+
+Call Option:
+  Price: $7.536352
+  Delta: 0.726388
+  Gamma: 0.031331
+  Theta: -0.024164 (per day)
+  Vega:  0.172714 (per 1% vol)
+  Rho:   0.171836 (per 1% rate)
+  Computation Time: 148 ns
+
+Put Option:
+  Price: $1.817822
+  Delta: -0.268624
+  Gamma: 0.031331
+  Theta: -0.024164 (per day)
+  Vega:  0.172714 (per 1% vol)
+  Rho:   -0.075058 (per 1% rate)
+  Computation Time: 65 ns
+
+Put-Call Parity Check:
+  C - P - (F - PV(K)) = 0.000000
+  Error: 0.000000
+  ✓ PASSED
+
+=== Implied Volatility Demo ===
+Implied Volatility Calculation:
+  Market Price: $8.427538
+  True Volatility: 25.000000%
+  Implied Volatility: 25.000000%
+  Error: 0.000000 basis points
+  Computation Time: 9080 ns
+  ✓ PASSED
+
+=== Portfolio Pricing Demo ===
+Pricing 1000 options...
+Portfolio Results:
+  Total Portfolio Value: $4595.29
+  Total Computation Time: 0.29 ms
+  Average Time per Option: 214 ns
+  Min Time: 209 ns
+  Max Time: 401 ns
+  Throughput: 3459250 options/second
+
+=== Performance Benchmark ===
+Running 100000 pricing iterations...
+Latency Statistics (nanoseconds):
+  Average: 193
+  Minimum: 174
+  Maximum: 48988
+  50th Percentile: 177
+  95th Percentile: 226
+  99th Percentile: 241
+  99.9th Percentile: 374
+  Throughput: 5173837 options/second
+
+=== Demo Complete ===
+All pricing engines executed successfully!
+Performance targets achieved:
+• Sub-microsecond option pricing ✓
+• High-throughput portfolio processing ✓
+• Accurate implied volatility solving ✓
+• Mathematical validation passed ✓

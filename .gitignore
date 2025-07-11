@@ -1,0 +1,182 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# IDE files
+.vscode/
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Qt Creator
+CMakeLists.txt.user*
+
+# CLion
+.idea/
+
+# Visual Studio Code
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Package files
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# Core dumps
+core
+core.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Coverage reports
+*.gcov
+*.gcda
+*.gcno
+lcov.info
+coverage/
+
+# Profiling data
+*.prof
+gmon.out
+callgrind.out.*
+cachegrind.out.*
+massif.out.*
+
+# Benchmark results
+benchmark_results/
+*.benchmark
+
+# Test artifacts
+test_results/
+Testing/
+
+# Documentation build
+docs/_build/
+docs/html/
+docs/latex/
+
+# Dependencies
+vcpkg_installed/
+_deps/
+conan_data/
+
+# Editor backup files
+*.bak
+*.orig
+*.rej
+
+# Environment variables
+.env
+.env.local
+
+# Python (if any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+.pytest_cache/
+
+# Data files (exclude large datasets)
+*.csv
+*.json
+*.xml
+data/large_datasets/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Archives
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
