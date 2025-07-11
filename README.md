@@ -6,7 +6,7 @@
 
 A high-performance C++20 options pricing engine designed for quantitative finance applications, featuring sub-microsecond latency and production-ready architecture.
 
-## 🚀 Key Features
+## Key Features
 
 ### Core Functionality
 - **Black-Scholes-Merton** analytical pricing with Greeks calculation
@@ -30,7 +30,7 @@ A high-performance C++20 options pricing engine designed for quantitative financ
 - **Modern CMake** build system with packaging
 - **Professional documentation** and examples
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Operation | Latency | Throughput |
 |-----------|---------|------------|
@@ -40,7 +40,7 @@ A high-performance C++20 options pricing engine designed for quantitative financ
 | Implied Volatility | <2 μs | 500K+ calcs/sec |
 | Portfolio (10K options) | <50 ms | 200K+ options/sec |
 
-## 🛠️ Build Requirements
+## Build Requirements
 
 - **C++20** compatible compiler (GCC 11+, Clang 12+, MSVC 2022+)
 - **CMake** 3.20 or higher
@@ -48,7 +48,7 @@ A high-performance C++20 options pricing engine designed for quantitative financ
 - **Google Test** (optional, for testing)
 - **Google Benchmark** (optional, for benchmarks)
 
-## 🔧 Quick Start
+## Quick Start
 
 ### Clone and Build
 ```bash
@@ -75,7 +75,7 @@ make -j$(nproc)
 ctest --verbose
 ```
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Basic European Option Pricing
 ```cpp
@@ -133,7 +133,7 @@ ImpliedVolatilitySolver iv_solver;
 double implied_vol = iv_solver.solve_newton_raphson(option, market, market_price);
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ### Project Structure
 ```
@@ -168,7 +168,7 @@ options-pricing-engine/
 - **MemoryPool.hpp**: Lock-free memory allocation
 - **ThreadPool.hpp**: Work-stealing thread pool implementation
 
-## 🔬 Mathematical Models
+## Mathematical Models
 
 ### Black-Scholes-Merton Formula
 For European options under geometric Brownian motion:
@@ -196,7 +196,7 @@ S(T) = S₀ × exp((r - q - σ²/2)T + σ√T × Z)
 ```
 Where Z ~ N(0,1) with variance reduction techniques.
 
-## 🧪 Testing & Validation
+## Testing & Validation
 
 ### Unit Tests
 - Mathematical function accuracy
@@ -216,7 +216,7 @@ Where Z ~ N(0,1) with variance reduction techniques.
 - Memory usage profiling
 - Scalability analysis
 
-## 📈 Performance Tuning
+## Performance Tuning
 
 ### Compile-Time Optimizations
 - **Link Time Optimization (LTO)** for maximum inlining
@@ -242,7 +242,7 @@ auto [result, duration] = time_function([&]() {
 });
 ```
 
-## 🔧 Configuration Options
+## Configuration Options
 
 ### CMake Build Options
 ```bash
@@ -263,14 +263,14 @@ config.thread_pool_size = 8;            // Worker threads
 config.cache_size = 10000;              # Cache capacity
 ```
 
-## 📚 Documentation
+## Documentation
 
 - **[API Reference](docs/API.md)**: Complete function documentation
 - **[Mathematical Methodology](docs/METHODOLOGY.md)**: Theoretical background
 - **[Performance Analysis](docs/PERFORMANCE.md)**: Benchmarking results
 - **[Build Guide](docs/BUILD.md)**: Detailed compilation instructions
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
 - Code style and conventions
@@ -278,11 +278,11 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 - Performance benchmarking
 - Documentation standards
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Quantitative Finance
 - **Options trading desks** requiring real-time pricing
