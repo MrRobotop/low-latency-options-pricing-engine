@@ -1,11 +1,11 @@
 # Deployment Summary
 
-## 🚀 Successfully Deployed to GitHub!
+## Successfully Deployed to GitHub!
 
 **Repository:** https://github.com/MrRobotop/low-latency-options-pricing-engine  
 **Author:** Rishabh Patil  
-**Date:** December 2024  
-**Status:** ✅ LIVE & PUBLIC
+**Date:** July 2025  
+**Status:** LIVE & PUBLIC
 
 ## Project Overview
 
